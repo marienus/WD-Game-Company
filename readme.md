@@ -37,9 +37,6 @@
       <a href="#overview">Overview</a>
       <ol>
         <li>
-          <a href="#key-components">Key Components</a>
-        </li>
-        <li>
           <a href="#technology">Technology</a>
         </li>
       </ol>
@@ -66,13 +63,6 @@ Guiding Question:
 - Whats the purpose
 - What are key components
 - What technology used and how it is used
-
-### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->
