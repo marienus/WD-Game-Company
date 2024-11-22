@@ -18,11 +18,11 @@
 
 <br />
 
+[![wakatime](https://wakatime.com/badge/user/048fbeec-0a69-4d91-a508-ce99251acf93/project/91d7940c-ed50-4256-9044-7eecdbb7f07e.svg)](https://wakatime.com/badge/user/048fbeec-0a69-4d91-a508-ce99251acf93/project/91d7940c-ed50-4256-9044-7eecdbb7f07e)
+
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=marienus/WD-Game-Company)
-
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
 ---
 
