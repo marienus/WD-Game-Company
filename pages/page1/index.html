@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About</title>
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     </head>
 
     <header>
@@ -18,19 +20,63 @@
     </header>
 
     <main>
-        <img src="assets/img/persona 4.png" alt="PERSONA 4">
-        <h1>Product Information</h1>
+        <h1>What is Persona?</h1>
+        <h3>Persona is a RPG series set in modern-day Japan that is acclaimed for its narrative style of confronting everyday realities such as forging friendships and romances, alongside supernatural and paranormal themes, including uncovering and solving mysterious rumors and various urban legends. The series typically follows a story that unfolds after a group of teenagers discover their abilities as Persona-users, chronicling the growth of their friendship and inner selves as they confront numerous obstacles. In recent years, the franchise has been adapted to animated TV series, animated films, music concerts, theatrical stages, manga, and continues to expand its influence. “Persona” refers to the alternate persona that lies within you—another “you” who materializes themselves in form of mythical deities and demons possessing great power.</h3>
+        <h1>Gameplay Screencaps</h1>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../../assets/img/gameplay_1.jpg" alt="gameplay_1"></div>
+                <div class="swiper-slide"><img src="../../assets/img/gameplay_2.jpg" alt="gameplay_2"></div>
+                <div class="swiper-slide"><img src="../../assets/img/gameplay_3.jpg" alt="gameplay_3"></div>
+                <div class="swiper-slide"><img src="../../assets/img/gameplay_4.jpg" alt="gameplay_4"></div>
+                <div class="swiper-slide"><img src="../../assets/img/gameplay_5.jpg" alt="gameplay_5"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <section class="game-specs">
+            <h2>Game Specifications</h2>
+            <div class="specs-container">
+                <ul class="specs-list">
+                    <li><strong>Title:</strong> Persona 4 Golden</li>
+                    <li><strong>Release Date:</strong> 01.19.2023</li>
+                    <li><strong>ESRB:</strong> M</li>
+                    <li><strong>Genre:</strong> RPG</li>
+                    <li><strong>Players:</strong> 1</li>
+                    <li><strong>Platform:</strong></li>
+                </ul>
+                <ul class="platform-list">
+                    <li>Xbox Game Pass</li>
+                    <li>Xbox Series X|S</li>
+                    <li>Xbox One</li>
+                    <li>Windows</li>
+                    <li>PlayStation®4</li>
+                    <li>Nintendo Switch™</li>
+                </ul>
+                <div class="additional-info">
+                    <p>* Steam version is available now</p>
+                    <p>* This title is digital only</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        <p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <a href="https://www.facebook.com/AtlusWest/" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/atlus_west" class="fa fa-twitter"></a>
-            <a href="https://www.youtube.com/c/atlus" class="fa fa-youtube"></a>
-            <a href="https://www.instagram.com/atlus_west/" class="fa fa-instagram"></a></p>
         <img src="../../assets/img/atlus_logo.png" alt="ATLUS LOGO" width="300"/>
         <img src="../../assets/img/rating.png" alt="RATING" />
         <p> ⒸATLUS. ⒸSEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. ATLUS, the ATLUS logo and PERSONA 4 GOLDEN are registered trademarks or trademarks of ATLUS Co., Ltd. or its affiliates. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA CORPORATION. All other trademarks, logos and copyrights are property of their respective owners.</p>
     </footer>
 </body>
 </html>
+
+<script>
+    const swiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+    });
+</script>
