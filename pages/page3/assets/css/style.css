@@ -63,21 +63,130 @@ main h1 {
     color: #292929;
 }
 
+.contact-us {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+.contact-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #292929;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #292929;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: #292929;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #fcc200;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.send-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #fcc200;
+    color: #292929;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #ffab00;
+}
+
+.send-button:active {
+    background-color: #f79e00;
+}
+
+.contact-us {
+    margin-top: 50px;
+}
+
+.social-media {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.social-icon.facebook {
+    background-color: #3b5998;
+}
+
+.social-icon.twitter {
+    background-color: #1da1f2;
+}
+
+.social-icon.youtube {
+    background-color: #cf1414;
+}
+
+.social-icon.instagram {
+    background-color: #d12176;
+}
+
+.social-icon i {
+    line-height: 90px;
+}
+
 footer {
     background-color: #292929;
     color: white;
     text-align: center;
     padding: 20px 0;
     font-size: 0.9em;
-
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-    }
 }
 
 footer p {
@@ -86,22 +195,14 @@ footer p {
     padding: 0 20px;
 }
 
-.fa-facebook {
-    color: white;
+input, textarea, select {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    color: #292929;
+    line-height: 1.6;
 }
 
-.fa-twitter {
-    color: white;
-}
-
-.fa-youtube {
-    color: white;
-}
-
-.fa-instagram {
-    color: white;
-}
-
-.fa:hover {
-    color:#fcc200;
+textarea {
+    resize: vertical;
+    min-height: 150px;
 }
