@@ -12,10 +12,16 @@ body {
 }
 
 header {
-    background-color: #292929;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
     color: white;
-    padding: 20px 0;
-    text-align: center;
+}
+
+header img {
+    max-width: 125px;
 }
 
 .logo {
@@ -33,10 +39,11 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-size: 1.2em;
+    text-transform: uppercase;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #fcc200;
 }
 
 main {
@@ -56,10 +63,6 @@ main h1 {
     color: #292929;
 }
 
-iframe {
-    margin-top: 20px;
-}
-
 footer {
     background-color: #292929;
     color: white;
@@ -74,11 +77,31 @@ footer {
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
-      }
+    }
 }
 
 footer p {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa:hover {
+    color:#fcc200;
 }

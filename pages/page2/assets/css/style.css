@@ -108,3 +108,23 @@ footer p {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa:hover {
+    color:#fcc200;
+}
