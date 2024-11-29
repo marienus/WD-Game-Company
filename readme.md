@@ -5,23 +5,18 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/jr logo.PNG" alt="jr logo" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Game Company</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Explore and purchase your favorite Persona games, including Persona 4 Golden, directly from our online store. Discover detailed game information, select your platform, and easily complete your purchase—all in one place.
 </div>
 
 <br />
 
 [![wakatime](https://wakatime.com/badge/user/048fbeec-0a69-4d91-a508-ce99251acf93/project/91d7940c-ed50-4256-9044-7eecdbb7f07e.svg)](https://wakatime.com/badge/user/048fbeec-0a69-4d91-a508-ce99251acf93/project/91d7940c-ed50-4256-9044-7eecdbb7f07e)
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=marienus/WD-Game-Company)
 
 ---
@@ -29,7 +24,6 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -54,18 +48,11 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+<div align="center">
+  Welcome to the ultimate Persona game store. Browse through a collection of Persona titles, including Persona 4 Golden, and more. Get information about each game, select your preferred platform, and enjoy a seamless purchasing experience. Whether you're a longtime fan or new to the series, our store makes it easy to get your hands on the games you love. Shop now and dive into the world of Persona.
+</div>
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
@@ -106,7 +93,39 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Purpose</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML Color Codes</td>
+      <td>Website for viewing color codes and their corresponding values.</td>
+      <td><a href="https://html-color.codes/">html-color.codes</a></td>
+    </tr>
+    <tr>
+      <td>Social Media Buttons</td>
+      <td>Learn how to create social media buttons using CSS.</td>
+      <td><a href="https://www.w3schools.com/howto/howto_css_social_media_buttons.asp">W3Schools - Social Media Buttons</a></td>
+    </tr>
+    <tr>
+      <td>YouTube Embed</td>
+      <td>Guide to embedding YouTube videos in your website.</td>
+      <td><a href="https://www.w3schools.com/html/html_youtube.asp">W3Schools - YouTube Embed</a></td>
+    </tr>
+    <tr>
+      <td>HTML Input Tags</td>
+      <td>Detailed documentation on HTML input tags and their usage.</td>
+      <td><a href="https://www.w3schools.com/tags/tag_input.asp">W3Schools - HTML Input</a></td>
+    </tr>
+    <tr>
+      <td>Swiper JS</td>
+      <td>API documentation for the Swiper library, used for creating sliders and carousels.</td>
+      <td><a href="https://swiperjs.com/swiper-api">SwiperJS API</a></td>
+    </tr>
+  </tbody>
+</table>
