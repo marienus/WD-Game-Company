@@ -1,96 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Buy Now</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy Now</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
+  <body>
     <header>
-        <img src="../../assets/img/logo.png" alt="logo"
-        width="250">
-        <nav>
-            <a href="../../index.html">Home</a>
-            <a href="../page1/index.html">About</a>
-            <a href="../page2/index.html">Buy Now</a>
-            <a href="../page3/index.html">Contacts</a>
-        </nav>
+      <img src="../../assets/img/logo.png" alt="logo" width="250" />
+      <nav>
+        <a href="../../index.html">Home</a>
+        <a href="../page1/index.html">About</a>
+        <a href="../page2/index.html">Buy Now</a>
+        <a href="../page3/index.html">Contacts</a>
+      </nav>
     </header>
 
     <main>
-        <h1 class="main-heading">Select Game</h1>
-        <section class="game-gallery">
-            <div class="game">
-                <img src="../../assets/img/persona cover.jpg" alt="Persona">
-            </div>
-            <div class="game">
-                <img src="../../assets/img/persona 2 cover.jpg" alt="Persona 2">
-            </div>
-            <div class="game">
-                <img src="../../assets/img/persona 3 cover.jpg" alt="Persona 3">
-            </div>
-            <div class="game">
-                <img src="../../assets/img/persona 4 golden cover.jpg" alt="Persona 4">
-            </div>
-            <div class="game">
-                <img src="../../assets/img/persona 5 cover.jpg" alt="Persona 5">
-            </div>
-        </section>
+      <h1 class="main-heading">Select Game</h1>
+      <section class="game-gallery">
+        <div class="game" onclick="toggleGameDetails(1)">
+          <img src="../../assets/img/persona cover.jpg" alt="Persona" />
+          <div class="game-details" id="game-details-1">
+            <h3>Persona</h3>
+            <p>
+              Embark on a thrilling adventure as high school students uncover
+              dark secrets in a mysterious world. A classic RPG with turn-based
+              combat and a unique social simulation element.
+            </p>
+          </div>
+        </div>
+        <div class="game" onclick="toggleGameDetails(2)">
+          <img src="../../assets/img/persona 2 cover.jpg" alt="Persona 2" />
+          <div class="game-details" id="game-details-2">
+            <h3>Persona 2</h3>
+            <p>
+              A gripping tale where a group of teenagers confront a dangerous
+              force connected to the power of rumors. This game features a rich
+              narrative and deep character interactions.
+            </p>
+          </div>
+        </div>
+        <div class="game" onclick="toggleGameDetails(3)">
+          <img src="../../assets/img/persona 3 cover.jpg" alt="Persona 3" />
+          <div class="game-details" id="game-details-3">
+            <h3>Persona 3</h3>
+            <p>
+              Join a group of high school students who battle terrifying
+              creatures in a mysterious tower during the dark hours of the
+              night. This game introduces the iconic 'Social Link' system,
+              blending dungeon crawling and social simulation.
+            </p>
+          </div>
+        </div>
+        <div class="game" onclick="toggleGameDetails(4)">
+          <img
+            src="../../assets/img/persona 4 golden cover.jpg"
+            alt="Persona 4"
+          />
+          <div class="game-details" id="game-details-4">
+            <h3>Persona 4 Golden</h3>
+            <p>
+              A murder mystery unfolds in a rural town, where a group of friends
+              must solve the case while battling dark forces from another world.
+              Enhanced with new content, this version expands on the original's
+              engaging story and character-driven gameplay.
+            </p>
+          </div>
+        </div>
+        <div class="game" onclick="toggleGameDetails(5)">
+          <img src="../../assets/img/persona 5 cover.jpg" alt="Persona 5" />
+          <div class="game-details" id="game-details-5">
+            <h3>Persona 5</h3>
+            <p>
+              As a group of rebellious teenagers, you infiltrate palaces within
+              people's minds to change their hearts and save society. Stylish
+              and bold, Persona 5 mixes dungeon exploration with a compelling
+              story of resistance and friendship.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <section class="platform-selection">
-            <h2 class="sub-heading">Choose a Platform</h2>
-            <div class="platform-buttons">
-                <button class="platform-btn xbox">Xbox</button>
-                <button class="platform-btn windows">Windows</button>
-                <button class="platform-btn steam">Steam</button>
-                <button class="platform-btn playstation">PlayStation 4</button>
-                <button class="platform-btn nintendo">Nintendo Switch</button>
+      <section class="platform-selection">
+        <h2 class="sub-heading">Choose a Platform</h2>
+        <div class="platform-buttons">
+          <button class="platform-btn xbox">Xbox</button>
+          <button class="platform-btn windows">Windows</button>
+          <button class="platform-btn steam">Steam</button>
+          <button class="platform-btn playstation">PlayStation 4</button>
+          <button class="platform-btn nintendo">Nintendo Switch</button>
+        </div>
+      </section>
+
+      <h2 class="sub-heading">Payment Method</h2>
+      <section class="billingsheet">
+        <div class="billing">
+          <div class="payment-options">
+            <img
+              src="../../assets/img/visa.png"
+              alt="Visa"
+              class="payment-icon"
+            />
+            <img
+              src="../../assets/img/mastercard.png"
+              alt="MasterCard"
+              class="payment-icon"
+            />
+            <img
+              src="../../assets/img/american express.png"
+              alt="American Express"
+              class="payment-icon"
+            />
+            <img
+              src="../../assets/img/paypal.png"
+              alt="PayPal"
+              class="payment-icon"
+            />
+          </div>
+
+          <label for="name">Name on card</label>
+          <input
+            type="text"
+            name="Name"
+            id="name"
+            placeholder="Enter your name"
+          />
+
+          <label for="cardnum">Card number</label>
+          <input
+            type="text"
+            name="cardnum"
+            id="cardnum"
+            placeholder="Enter card number"
+          />
+
+          <div class="double">
+            <div class="expdate">
+              <label for="expdate">Expiry Date</label>
+              <input
+                type="text"
+                name="expdate"
+                id="expdate"
+                placeholder="MM/YY"
+              />
             </div>
-        </section>
-
-        <h2 class="sub-heading">Payment Method</h2>
-        <section class="billingsheet">
-            <div class="billing">
-                <div class="payment-options">
-                    <img src="../../assets/img/visa.png" alt="Visa" class="payment-icon">
-                    <img src="../../assets/img/mastercard.png" alt="MasterCard" class="payment-icon">
-                    <img src="../../assets/img/american express.png" alt="American Express" class="payment-icon">
-                    <img src="../../assets/img/paypal.png" alt="PayPal" class="payment-icon">
-                </div>
-
-                <label for="name">Name on card</label>
-                <input type="text" name="Name" id="name" placeholder="Enter your name">
-
-                <label for="cardnum">Card number</label>
-                <input type="text" name="cardnum" id="cardnum" placeholder="Enter card number">
-
-                <div class="double">
-                    <div class="expdate">
-                        <label for="expdate">Expiry Date</label>
-                        <input type="text" name="expdate" id="expdate" placeholder="MM/YY">
-                    </div>
-                    <div class="secucode">
-                        <label for="secucode">Security Code</label>
-                        <input type="text" name="secucode" id="secucode" placeholder="CVV">
-                    </div>
-                </div>
-
-                <label for="zip">ZIP/Postal Code</label>
-                <input type="text" name="zip" id="zip" placeholder="Enter ZIP/Postal Code">
-
-                <button class="submit-btn" type="submit">Submit Payment</button>
+            <div class="secucode">
+              <label for="secucode">Security Code</label>
+              <input
+                type="text"
+                name="secucode"
+                id="secucode"
+                placeholder="CVV"
+              />
             </div>
-        </section>
-        <section class="contact-section">
-            <p class="contact-info">For all ATLUS Online Shop related questions and inquiries, please email <a href="mailto:support@shopatlus.com">support@shopatlus.com</a></p>
-        </section>
+          </div>
+
+          <label for="zip">ZIP/Postal Code</label>
+          <input
+            type="text"
+            name="zip"
+            id="zip"
+            placeholder="Enter ZIP/Postal Code"
+          />
+
+          <button class="submit-btn" type="submit">Submit Payment</button>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <p class="contact-info">
+          For all ATLUS Online Shop related questions and inquiries, please
+          email <a href="mailto:support@shopatlus.com">support@shopatlus.com</a>
+        </p>
+      </section>
+
+      <script>
+        function toggleGameDetails(gameId) {
+          const gameDetails = document.getElementById(`game-details-${gameId}`);
+          gameDetails.classList.toggle("open");
+        }
+      </script>
     </main>
 
     <footer>
-        <img src="../../assets/img/atlus_logo.png" alt="ATLUS LOGO" width="300"/>
-        <img src="../../assets/img/rating.png" alt="RATING" />
-        <p> ⒸATLUS. ⒸSEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. ATLUS, the ATLUS logo and PERSONA 4 GOLDEN are registered trademarks or trademarks of ATLUS Co., Ltd. or its affiliates. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA CORPORATION. All other trademarks, logos and copyrights are property of their respective owners.</p>
+      <img src="../../assets/img/atlus_logo.png" alt="ATLUS LOGO" width="300" />
+      <img src="../../assets/img/rating.png" alt="RATING" />
+      <p>
+        ⒸATLUS. ⒸSEGA. All rights reserved. SEGA is registered in the U.S.
+        Patent and Trademark Office. ATLUS, the ATLUS logo and PERSONA 4 GOLDEN
+        are registered trademarks or trademarks of ATLUS Co., Ltd. or its
+        affiliates. SEGA and the SEGA logo are registered trademarks or
+        trademarks of SEGA CORPORATION. All other trademarks, logos and
+        copyrights are property of their respective owners.
+      </p>
     </footer>
-</body>
+  </body>
 </html>
