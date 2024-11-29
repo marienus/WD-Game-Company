@@ -103,7 +103,7 @@ nav a:hover {
 
 .game-details.open {
   display: block;
-  max-height: 500px; /* Adjust according to your content */
+  max-height: 500px;
   opacity: 1;
 }
 
