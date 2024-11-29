@@ -19,47 +19,72 @@
     </header>
 
     <main>
+        <h1 class="main-heading">Select Game</h1>
         <section class="game-gallery">
             <div class="game">
-                <img src="../../assets/img/persona cover.jpg" alt="persona">
+                <img src="../../assets/img/persona cover.jpg" alt="Persona">
             </div>
             <div class="game">
-                <img src="../../assets/img/persona 2 cover.jpg" alt="persona 2">
+                <img src="../../assets/img/persona 2 cover.jpg" alt="Persona 2">
             </div>
             <div class="game">
-                <img src="../../assets/img/persona 3 cover.jpg" alt="persona 3">
+                <img src="../../assets/img/persona 3 cover.jpg" alt="Persona 3">
             </div>
             <div class="game">
-                <img src="../../assets/img/persona 4 golden cover.jpg" alt="persona 4">
+                <img src="../../assets/img/persona 4 golden cover.jpg" alt="Persona 4">
             </div>
             <div class="game">
-                <img src="../../assets/img/persona 5 cover.jpg" alt="persona 5">
+                <img src="../../assets/img/persona 5 cover.jpg" alt="Persona 5">
             </div>
         </section>
 
+        <section class="platform-selection">
+            <h2 class="sub-heading">Choose a Platform</h2>
+            <div class="platform-buttons">
+                <button class="platform-btn xbox">Xbox</button>
+                <button class="platform-btn windows">Windows</button>
+                <button class="platform-btn steam">Steam</button>
+                <button class="platform-btn playstation">PlayStation 4</button>
+                <button class="platform-btn nintendo">Nintendo Switch</button>
+            </div>
+        </section>
+
+        <h2 class="sub-heading">Payment Method</h2>
         <section class="billingsheet">
             <div class="billing">
-                <h3>Name on card</h3>
-                <input type="text" name="Name" id="name">
-                <h3>Card number</h3>
-                <input type="text" name="cardnum" id="cardnum">
+                <div class="payment-options">
+                    <img src="../../assets/img/visa.png" alt="Visa" class="payment-icon">
+                    <img src="../../assets/img/mastercard.png" alt="MasterCard" class="payment-icon">
+                    <img src="../../assets/img/american express.png" alt="American Express" class="payment-icon">
+                    <img src="../../assets/img/paypal.png" alt="PayPal" class="payment-icon">
+                </div>
+
+                <label for="name">Name on card</label>
+                <input type="text" name="Name" id="name" placeholder="Enter your name">
+
+                <label for="cardnum">Card number</label>
+                <input type="text" name="cardnum" id="cardnum" placeholder="Enter card number">
+
                 <div class="double">
                     <div class="expdate">
-                        <h3>Expiry Date</h3>
-                        <input type="text" name="expdate" id="expdate">
+                        <label for="expdate">Expiry Date</label>
+                        <input type="text" name="expdate" id="expdate" placeholder="MM/YY">
                     </div>
                     <div class="secucode">
-                        <h3>Security Code</h3>
-                        <input type="text" name="secucode" id="secucode">
+                        <label for="secucode">Security Code</label>
+                        <input type="text" name="secucode" id="secucode" placeholder="CVV">
                     </div>
                 </div>
-                <h3>ZIP/Postal code</h3>
-                <input type="text" name="zip" id="zip">
-                
-                <!-- Submit Button -->
+
+                <label for="zip">ZIP/Postal Code</label>
+                <input type="text" name="zip" id="zip" placeholder="Enter ZIP/Postal Code">
+
                 <button class="submit-btn" type="submit">Submit Payment</button>
             </div>
-        </section>        
+        </section>
+        <section class="contact-section">
+            <p class="contact-info">For all ATLUS Online Shop related questions and inquiries, please email <a href="mailto:support@shopatlus.com">support@shopatlus.com</a></p>
+        </section>
     </main>
 
     <footer>

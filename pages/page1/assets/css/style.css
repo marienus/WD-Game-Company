@@ -48,7 +48,10 @@ nav a:hover {
 
 main {
     text-align: center;
-    margin: 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
 }
 
 main img {
@@ -64,63 +67,65 @@ main h1 {
 }
 
 .game-specs {
-    background-color: #f8f8f8;
-    padding: 30px;
-    margin: 20px auto;
+    position: relative;
+    background-color: rgba(255, 247, 88, 0.932);
+    padding: 40px;
+    margin: 40px auto;
     max-width: 800px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 1;
+}
+
+.game-specs::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+    border-radius: 10px;
 }
 
 h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333;
+    color: #292929;
+    font-size: 1.8em;
     text-align: center;
-}
-
-.specs-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.specs-list,
-.platform-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 .specs-list li,
 .platform-list li {
     font-size: 16px;
-    line-height: 1.6;
-    color: #555;
-}
-
-.specs-list li strong,
-.platform-list li strong {
-    font-weight: bold;
     color: #333;
 }
 
-.platform-list li {
-    margin-left: 20px;
+.platform-list li:last-child {
+    margin-bottom: 30px;
 }
 
-.additional-info p {
-    font-size: 14px;
-    color: #777;
-    margin-top: 5px;
+.additional-info {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
     .game-specs {
         padding: 20px;
         margin: 10px;
+    }
+
+    .specs-container {
+        grid-template-columns: 1fr;
     }
 
     h2 {
@@ -132,7 +137,6 @@ h2 {
         font-size: 14px;
     }
 }
-
 
 footer {
     background-color: #292929;
